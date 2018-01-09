@@ -4,7 +4,7 @@
 Version: 1.0
 
 ## Short Description
-This tool converts zipped Bruker raw files into tabulated txt file for BATMAN.
+This tool converts Bruker raw files into tabulated txt file for BATMAN.
 
 ## Description
 
@@ -27,7 +27,6 @@ This tool converts zipped Bruker raw files into tabulated txt file for BATMAN.
 
 - Originally developed by Tim Ebbels and Jie Hao (Imperial College London)
 - Maintained by Jianliang and Vagelis (Imperial College London)
-- nmrML Standards Group
 
 ## Container Contributors
 
@@ -44,7 +43,7 @@ in the folder where Dockerfile is hosted and run
 `docker build -t <your_docker_image_name>:latest .`
 
 ## Usage Instructions
-Copy the zipped Bruker raw data file to <path/to/data/folder>
+Copy Bruker raw data files into <path/to/data/folder>
 
 Change work dir to <path/to/data/folder> and run
 
