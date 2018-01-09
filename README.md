@@ -1,6 +1,6 @@
 ![Logo](bruker2batman.png)
 
-# nmrML2BATMAN
+# Bruker2BATMAN
 Version: 1.0
 
 ## Short Description
