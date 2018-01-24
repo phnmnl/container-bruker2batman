@@ -11,10 +11,10 @@ unzip -q -d ./testDir ./mesa_bruker.zip
 
 bruker2batman.R -i ./testDir
 
-temp="NMRdata_from_Bruker.txt"
+temp="NMRdata.txt"
 
 if [ ! -f "$temp" ]; then
-    echo "NMRdata_from_Bruker.txt not found!"
+    echo "NMRdata.txt not found!"
     exit 1
 else
     echo "Succeeded!"
