@@ -153,4 +153,4 @@ sa <- cbind(ppm,sa)
 colnames(sa)<- snam
 
 #write to txt file
-write.table(sa,file="NMRdata.txt",row.names=FALSE,col.names=TRUE,quote=FALSE,sep = "\t")
+write.table(sa,file="NMRdata_from_Bruker",row.names=FALSE,col.names=TRUE,quote=FALSE,sep = "\t")
