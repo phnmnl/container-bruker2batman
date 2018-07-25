@@ -7,6 +7,8 @@ Version: 1.0
 This tool converts Bruker raw files into tabulated txt file for BATMAN.
 
 ## Description
+This tool converts Bruker raw files into tabulated txt file for BATMAN.
+
 
 ## Key features
 - Format Converter
@@ -43,9 +45,9 @@ in the folder where Dockerfile is hosted and run
 `docker build -t <your_docker_image_name>:latest .`
 
 ## Usage Instructions
-Copy Bruker raw data files into <path/to/data/folder>
+Copy Bruker raw data files into `<path/to/data/folder>`
 
-Change work dir to <path/to/data/folder> and run
+Change work dir to `<path/to/data/folder>` and run
 
 `docker run -v $PWD:/data -ti <your_docker_image_name> -i /data/`
 
